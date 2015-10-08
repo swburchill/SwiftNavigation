@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftNavigationChallange", "SwiftNavigationChallange\SwiftNavigationChallange.csproj", "{AD9079AA-0725-453D-A5DD-FC75E05FBFE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftNavigationChallangeTest", "SwiftNavigationChallangeTest\SwiftNavigationChallangeTest.csproj", "{A4BF77D2-6D46-4FBD-85EF-E9C34A44B362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD9079AA-0725-453D-A5DD-FC75E05FBFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9079AA-0725-453D-A5DD-FC75E05FBFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9079AA-0725-453D-A5DD-FC75E05FBFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9079AA-0725-453D-A5DD-FC75E05FBFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4BF77D2-6D46-4FBD-85EF-E9C34A44B362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BF77D2-6D46-4FBD-85EF-E9C34A44B362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BF77D2-6D46-4FBD-85EF-E9C34A44B362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BF77D2-6D46-4FBD-85EF-E9C34A44B362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
