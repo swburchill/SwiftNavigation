@@ -11,6 +11,10 @@ namespace SwiftNavigationChallange
       public bool isNumberPrime(int n)
       {
          bool isPrime = false;
+         if (n == 0)
+         {
+            return isPrime;
+         }
          for (int i = 2; i < n; i++)
          {
             if(n%i == 0)
@@ -32,6 +36,11 @@ namespace SwiftNavigationChallange
       public string chooseString(int number)
       {
          string output = "";
+         if (number == 0)
+         {
+            output += number.ToString();
+            return output;
+         }
          if (isNumberPrime(number))
          {
             output += "BuzzFizz";
@@ -56,9 +65,7 @@ namespace SwiftNavigationChallange
 
       public int fibonacci(int n)
       {
-         //Assuming that we want to start fibonacci from 1,1 instead of 0,1 as it makes
-         //the algorithm more efficient to not always check if dividing by 0.
-         int current = 1;
+         int current = 0;
          int next = 1;
          int count = 0;
          string output = "";
